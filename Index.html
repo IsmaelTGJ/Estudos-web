@@ -1,0 +1,262 @@
+<!DOCTYPE html >
+<html lang='Pt-br'>
+<head>
+    <meta charset='utf-8'>
+    <title>Landing Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' media='screen' href='./Assets/Css/styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body >
+    <input id="close-menu" type="checkbox" class="close-menu" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
+    <aside class="menu">
+        <div class="menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#intro">
+                DéviALPX
+                </a>
+            </h1>
+
+              <nav>
+                 <ul onclick="getElementById('close-menu').checked = false;" >
+                      <li><a href="#intro">Intro</a></li>
+                      <li><a href="#top3">Top 3</a></li>
+                      <li><a href="#grid-one">Grid one</a></li>
+                      <li><a href="#gallery">Gallery</a></li>
+                      <li><a href="#pricing">Pricing</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                 </ul>    
+              </nav>
+        </div>
+    </aside>
+ 
+        <div class="menu-spacing"></div>
+
+    <section class="main-bg section" id="intro">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+            <H2>Bem vindo</H2>
+            <p>
+             sejam bem vindos ao meu site, aqui você será supreendido por inumeras supresas tipo nada ! fique a vontade, a qualquer problema entre em contato com nossa assistência para melhor te ignorarem ! 
+            </p>
+            </div>
+
+            <div class="intro-img">
+                <img src="Assets/img/Javascript-optimized.svg " alt="logo javascript">
+                
+            </div>
+        </div>    
+        </section>
+
+    <section class="white-bg section" id="top3">
+        <div class="main-content top3-content">
+            <h2>Top 3 jobs</h2>
+            <p>
+                The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.               
+            </p>
+            <p>
+                We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.
+            </p>
+            <p>
+                We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.
+            </p>
+        </div>
+    </section>
+  
+    <section id="grid-one" class="main-bg grid-one section">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-main-heading">My grid</h2>
+            <p class="grid-description">Descrição</p>
+            <div class="grid">
+                <article>
+                    <h3>teste 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, accusamus nesciunt culpa est, optio quia excepturi neque quibusdam eaque asperiores magnam beatae in at voluptate cumque quae aliquid impedit autem.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, veritatis. Consequuntur sed magni facilis eum optio inventore nostrum doloremque adipisci illum! Beatae tempore quo, assumenda a expedita accusamus praesentium inventore.</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, veritatis. Consequuntur sed magni facilis eum optio inventore nostrum doloremque adipisci illum! Beatae tempore quo, assumenda a expedita accusamus praesentium inventore.</p>
+
+                
+
+                </article>
+            </div>
+        
+        </div>
+    </section>   
+
+    <section id="gallery" class="white-bg grid-one section">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Imagens aleatórias</p>
+            
+            <div class="grid">
+                <div class="grid-gallery">
+                  <img src="http://source.unsplash.com/random/360x360?r=1" alt="ramdom img"/>
+                </div>    
+                
+                <div class="grid-gallery">
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="ramdom img"/>
+                  </div>
+
+                  <div class="grid-gallery">
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="ramdom img"/>
+                  </div>
+                  
+                  <div class="grid-gallery">
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="ramdom img"/>
+                  </div>
+
+                  <div class="grid-gallery">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="ramdom img"/>
+                  </div>
+
+                  <div class="grid-gallery">
+                    
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="ramdom img"/>
+
+                  </div>
+            </div>
+        
+        </div>
+    </section>   
+
+    <section id="pricing" class="main-bg section">
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+            <p>
+                The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.               
+            </p>
+            <p>
+                We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.
+            </p>
+        </div>
+        <div class="responsive-table">
+        <table class="tabela-pricing main-content">
+            <caption>
+                Pricing table
+            </caption>
+            <thead >
+                <tr>
+                    <th>Title 1</th>
+                    <th>Title 2</th>
+                    <th>Title 3</th>
+                    <th>Title 4</th>
+                </tr>
+            </thead>
+    
+            <tbody class="content-table">
+                <tr>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                    <td>Corpo 4</td>
+
+                </tr>
+    
+            <tbody class="content-table">
+                    <tr>
+                        <td>Corpo 1</td>
+                        <td>Corpo 2</td>
+                        <td>Corpo 3</td>
+                        <td>Corpo 4</td>
+
+                    </tr>
+            <tbody class="content-table">
+                        <tr>
+                            <td>Corpo 1</td>
+                            <td>Corpo 2</td>
+                            <td>Corpo 3</td>
+                            <td>Corpo 4</td>
+                        </tr>
+            </tbody>
+    
+            <tfoot class="foot-table">
+                <tr>
+                    <td colspan="5">Testando</td>
+                   
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    </section>
+
+     <section class="white-bg section" id="contact">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+            <H2>Mas já vai</H2>
+            <p>
+               Esperamos que suas espctativas foram superadas,se não foram...paciência. se você tem algo que nós ajude a evoluir, por favor contate-nos que iremos jogar sua opnião no lixo com carinho ! <br>
+               Desde já agradeço !
+            </p>
+            </div>
+            
+            <div class="intro-img">
+                <img src="Assets/img/Javascript-optimized.svg " alt="logo javascript">
+                
+            </div>
+        
+        <div class="formulario">
+            <fieldset class="grid-form ">
+                <legend>contate-nos</legend>
+
+               <div class="form-group">
+                <p>
+                    Seu nome
+                    <label for="nome" ></label>
+                    <input type="text" id="nome" placeholder="Seu nome">
+                </p>
+                </div>
+
+                <div class="form-group">
+                <p>
+                    Sobrenome
+                    <label for="sobrenome" ></label>
+                    <input type="text" id="sobrenome" placeholder="Sobrenome">
+                </p>
+                </div>
+
+                <div class="form-group">
+                <p>
+                    E-mail
+                    <label for="email" ></label>
+                    <input type="text" id="email" placeholder="Seu E-mail">
+                </p>
+                </div>
+
+                <div class="form-group full-width">
+                <p>
+                    Mensagem
+                    <label for="mensagem" ></label>
+                   <textarea name="message" id="Mensagem" placeholder="Deixe sua mensagem" cols="30" rows="10"></textarea>
+                </p>
+                </div>
+
+                <div class="form-group full-width">
+                         <button type="submit">Enviar formulário</button>
+                    </div>
+            </form>
+        </fieldset>
+        </div>    
+    </div>
+        </section>
+
+        <footer class="main-bg footer">
+            <p>Feito com <span class="heart">♥</span> por Ismael Junior 😁</p>
+        </footer>
+   
+            <a href="#intro" class="back-to-top" >⇧</a>
+
+        
+
+</body>
+</html>
