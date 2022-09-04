@@ -320,6 +320,7 @@ div .full-width{
 }
 
 .form-group button{
+    color: #000;
     padding: 0.5rem;
     border: 0.1rem solid rgb(142, 169, 172);
     background: none;
@@ -347,6 +348,7 @@ div .full-width{
 }
 
 .back-to-top{
+    color: #000;
     background:none;
     position:fixed;
     height:5rem;
