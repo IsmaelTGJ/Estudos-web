@@ -347,20 +347,7 @@ div .full-width{
     display: none;
 }
 
-.back-to-top{
-    color: #000;
-    background:none;
-    position:fixed;
-    height:5rem;
-    width: 5rem;
-    right: 2rem;
-    bottom: 2rem;
-    border-radius: 5rem;
-    font-size: 6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 
 @media(max-width:800px){
@@ -426,4 +413,19 @@ div .full-width{
     .close-menu:checked~.close-menu-label::after{
         content: '✕';
     }
+}
+@media(min-width:800px){
+    .back-to-top{
+    color: #000;
+    background:none;
+    position:fixed;
+    height:5rem;
+    width: 5rem;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 5rem;
+    font-size: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
