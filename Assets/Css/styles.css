@@ -413,6 +413,9 @@ div .full-width{
     .close-menu:checked~.close-menu-label::after{
         content: '✕';
     }
+       .back-to-top{    
+           display:none;
+}
 }
 @media(min-width:800px){
     .back-to-top{
